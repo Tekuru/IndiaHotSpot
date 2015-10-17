@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925A9BC21B885F3E00EE2537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A9BC11B885F3E00EE2537 /* AppDelegate.swift */; };
+		925A9BC41B885F3E00EE2537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A9BC31B885F3E00EE2537 /* ViewController.swift */; };
+		925A9BC71B885F3E00EE2537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925A9BC51B885F3E00EE2537 /* Main.storyboard */; };
+		925A9BC91B885F3E00EE2537 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925A9BC81B885F3E00EE2537 /* Images.xcassets */; };
+		925A9BCC1B885F3E00EE2537 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 925A9BCA1B885F3E00EE2537 /* LaunchScreen.xib */; };
+		925A9BD81B885F3F00EE2537 /* IndiaHotSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A9BD71B885F3F00EE2537 /* IndiaHotSpotTests.swift */; };
+		925A9BE21B88612400EE2537 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 925A9BE11B88612400EE2537 /* data.plist */; };
+		925A9BE71B88633B00EE2537 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 925A9BE41B88633B00EE2537 /* image1.png */; };
+		925A9BE81B88633B00EE2537 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 925A9BE51B88633B00EE2537 /* image2.png */; };
+		925A9BE91B88633B00EE2537 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 925A9BE61B88633B00EE2537 /* image3.png */; };
+		929E99C91BA40E0100A16FF3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E99C81BA40E0100A16FF3 /* DetailViewController.swift */; };
+		929E99CB1BA4149000A16FF3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E99CA1BA4149000A16FF3 /* MapViewController.swift */; };
+		929E99CD1BA414CC00A16FF3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929E99CC1BA414CC00A16FF3 /* MapKit.framework */; };
+		929E99CF1BA4155900A16FF3 /* IHPlaceMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E99CE1BA4155900A16FF3 /* IHPlaceMark.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925A9BD21B885F3F00EE2537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925A9BB41B885F3E00EE2537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925A9BBB1B885F3E00EE2537;
+			remoteInfo = IndiaHotSpot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925A9BBC1B885F3E00EE2537 /* IndiaHotSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndiaHotSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		925A9BC01B885F3E00EE2537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925A9BC11B885F3E00EE2537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		925A9BC31B885F3E00EE2537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		925A9BC61B885F3E00EE2537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		925A9BC81B885F3E00EE2537 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		925A9BCB1B885F3E00EE2537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		925A9BD11B885F3F00EE2537 /* IndiaHotSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiaHotSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925A9BD61B885F3F00EE2537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925A9BD71B885F3F00EE2537 /* IndiaHotSpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaHotSpotTests.swift; sourceTree = "<group>"; };
+		925A9BE11B88612400EE2537 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		925A9BE41B88633B00EE2537 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		925A9BE51B88633B00EE2537 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		925A9BE61B88633B00EE2537 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		929E99C81BA40E0100A16FF3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		929E99CA1BA4149000A16FF3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		929E99CC1BA414CC00A16FF3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		929E99CE1BA4155900A16FF3 /* IHPlaceMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IHPlaceMark.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925A9BB91B885F3E00EE2537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E99CD1BA414CC00A16FF3 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A9BCE1B885F3F00EE2537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925A9BB31B885F3E00EE2537 = {
+			isa = PBXGroup;
+			children = (
+				929E99CC1BA414CC00A16FF3 /* MapKit.framework */,
+				925A9BE31B88632600EE2537 /* Images */,
+				925A9BE11B88612400EE2537 /* data.plist */,
+				925A9BBE1B885F3E00EE2537 /* IndiaHotSpot */,
+				925A9BD41B885F3F00EE2537 /* IndiaHotSpotTests */,
+				925A9BBD1B885F3E00EE2537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925A9BBD1B885F3E00EE2537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925A9BBC1B885F3E00EE2537 /* IndiaHotSpot.app */,
+				925A9BD11B885F3F00EE2537 /* IndiaHotSpotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925A9BBE1B885F3E00EE2537 /* IndiaHotSpot */ = {
+			isa = PBXGroup;
+			children = (
+				925A9BC11B885F3E00EE2537 /* AppDelegate.swift */,
+				925A9BC31B885F3E00EE2537 /* ViewController.swift */,
+				929E99C81BA40E0100A16FF3 /* DetailViewController.swift */,
+				929E99CA1BA4149000A16FF3 /* MapViewController.swift */,
+				929E99CE1BA4155900A16FF3 /* IHPlaceMark.swift */,
+				925A9BC51B885F3E00EE2537 /* Main.storyboard */,
+				925A9BC81B885F3E00EE2537 /* Images.xcassets */,
+				925A9BCA1B885F3E00EE2537 /* LaunchScreen.xib */,
+				925A9BBF1B885F3E00EE2537 /* Supporting Files */,
+			);
+			path = IndiaHotSpot;
+			sourceTree = "<group>";
+		};
+		925A9BBF1B885F3E00EE2537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				925A9BC01B885F3E00EE2537 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		925A9BD41B885F3F00EE2537 /* IndiaHotSpotTests */ = {
+			isa = PBXGroup;
+			children = (
+				925A9BD71B885F3F00EE2537 /* IndiaHotSpotTests.swift */,
+				925A9BD51B885F3F00EE2537 /* Supporting Files */,
+			);
+			path = IndiaHotSpotTests;
+			sourceTree = "<group>";
+		};
+		925A9BD51B885F3F00EE2537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				925A9BD61B885F3F00EE2537 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		925A9BE31B88632600EE2537 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				925A9BE41B88633B00EE2537 /* image1.png */,
+				925A9BE51B88633B00EE2537 /* image2.png */,
+				925A9BE61B88633B00EE2537 /* image3.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925A9BBB1B885F3E00EE2537 /* IndiaHotSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925A9BDB1B885F3F00EE2537 /* Build configuration list for PBXNativeTarget "IndiaHotSpot" */;
+			buildPhases = (
+				925A9BB81B885F3E00EE2537 /* Sources */,
+				925A9BB91B885F3E00EE2537 /* Frameworks */,
+				925A9BBA1B885F3E00EE2537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndiaHotSpot;
+			productName = IndiaHotSpot;
+			productReference = 925A9BBC1B885F3E00EE2537 /* IndiaHotSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925A9BD01B885F3F00EE2537 /* IndiaHotSpotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925A9BDE1B885F3F00EE2537 /* Build configuration list for PBXNativeTarget "IndiaHotSpotTests" */;
+			buildPhases = (
+				925A9BCD1B885F3F00EE2537 /* Sources */,
+				925A9BCE1B885F3F00EE2537 /* Frameworks */,
+				925A9BCF1B885F3F00EE2537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925A9BD31B885F3F00EE2537 /* PBXTargetDependency */,
+			);
+			name = IndiaHotSpotTests;
+			productName = IndiaHotSpotTests;
+			productReference = 925A9BD11B885F3F00EE2537 /* IndiaHotSpotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925A9BB41B885F3E00EE2537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Tekuru;
+				TargetAttributes = {
+					925A9BBB1B885F3E00EE2537 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					925A9BD01B885F3F00EE2537 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 925A9BBB1B885F3E00EE2537;
+					};
+				};
+			};
+			buildConfigurationList = 925A9BB71B885F3E00EE2537 /* Build configuration list for PBXProject "IndiaHotSpot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 925A9BB31B885F3E00EE2537;
+			productRefGroup = 925A9BBD1B885F3E00EE2537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925A9BBB1B885F3E00EE2537 /* IndiaHotSpot */,
+				925A9BD01B885F3F00EE2537 /* IndiaHotSpotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925A9BBA1B885F3E00EE2537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925A9BC71B885F3E00EE2537 /* Main.storyboard in Resources */,
+				925A9BE71B88633B00EE2537 /* image1.png in Resources */,
+				925A9BE81B88633B00EE2537 /* image2.png in Resources */,
+				925A9BCC1B885F3E00EE2537 /* LaunchScreen.xib in Resources */,
+				925A9BE21B88612400EE2537 /* data.plist in Resources */,
+				925A9BE91B88633B00EE2537 /* image3.png in Resources */,
+				925A9BC91B885F3E00EE2537 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A9BCF1B885F3F00EE2537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925A9BB81B885F3E00EE2537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E99C91BA40E0100A16FF3 /* DetailViewController.swift in Sources */,
+				925A9BC41B885F3E00EE2537 /* ViewController.swift in Sources */,
+				929E99CF1BA4155900A16FF3 /* IHPlaceMark.swift in Sources */,
+				925A9BC21B885F3E00EE2537 /* AppDelegate.swift in Sources */,
+				929E99CB1BA4149000A16FF3 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A9BCD1B885F3F00EE2537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925A9BD81B885F3F00EE2537 /* IndiaHotSpotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925A9BD31B885F3F00EE2537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925A9BBB1B885F3E00EE2537 /* IndiaHotSpot */;
+			targetProxy = 925A9BD21B885F3F00EE2537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		925A9BC51B885F3E00EE2537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925A9BC61B885F3E00EE2537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		925A9BCA1B885F3E00EE2537 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925A9BCB1B885F3E00EE2537 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		925A9BD91B885F3F00EE2537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		925A9BDA1B885F3F00EE2537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925A9BDC1B885F3F00EE2537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IndiaHotSpot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		925A9BDD1B885F3F00EE2537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IndiaHotSpot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		925A9BDF1B885F3F00EE2537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndiaHotSpotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndiaHotSpot.app/IndiaHotSpot";
+			};
+			name = Debug;
+		};
+		925A9BE01B885F3F00EE2537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndiaHotSpotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndiaHotSpot.app/IndiaHotSpot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925A9BB71B885F3E00EE2537 /* Build configuration list for PBXProject "IndiaHotSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925A9BD91B885F3F00EE2537 /* Debug */,
+				925A9BDA1B885F3F00EE2537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925A9BDB1B885F3F00EE2537 /* Build configuration list for PBXNativeTarget "IndiaHotSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925A9BDC1B885F3F00EE2537 /* Debug */,
+				925A9BDD1B885F3F00EE2537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925A9BDE1B885F3F00EE2537 /* Build configuration list for PBXNativeTarget "IndiaHotSpotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925A9BDF1B885F3F00EE2537 /* Debug */,
+				925A9BE01B885F3F00EE2537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 925A9BB41B885F3E00EE2537 /* Project object */;
+}

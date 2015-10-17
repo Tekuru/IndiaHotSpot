@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>タージマハル</string>
+		<key>Image</key>
+		<string>image1.png</string>
+		<key>Description</key>
+		<string>王妃のお墓。</string>
+		<key>Place</key>
+		<string>西部</string>
+		<key>Category</key>
+		<string>建物</string>
+		<key>Lattitude</key>
+		<real>27.1</real>
+		<key>Longitude</key>
+		<real>18.1</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>インドの女性</string>
+		<key>Image</key>
+		<string>image2.png</string>
+		<key>Description</key>
+		<string>微笑んでいるインドの女性達。</string>
+		<key>Place</key>
+		<string>南部</string>
+		<key>Category</key>
+		<string>人々</string>
+		<key>Lattitude</key>
+		<real>27.2</real>
+		<key>Longitude</key>
+		<real>18.1</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>ガンジス川での沐浴</string>
+		<key>Image</key>
+		<string>image3.png</string>
+		<key>Description</key>
+		<string>ガンジス川で沐浴する人々</string>
+		<key>Place</key>
+		<string>東部</string>
+		<key>Category</key>
+		<string>イベント</string>
+		<key>Lattitude</key>
+		<real>27.1</real>
+		<key>Longitude</key>
+		<real>18.2</real>
+	</dict>
+</array>
+</plist>
